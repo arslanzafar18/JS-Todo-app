@@ -1,27 +1,39 @@
 Deploying a Node Js Application on AWS EC2
+
 Testing the project locally
+
 Clone this project
+
 git clone https://github.com/verma-kunal/AWS-Session.git
+
 Setup the following environment variables - (.env) file
+
 DOMAIN= ""
 PORT=3000
 STATIC_DIR="./client"
 
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
+
 Initialise and start the project
+
 npm install
 npm run start
+
 Set up an AWS EC2 instance
+
 Create an IAM user & login to your AWS Console
 Access Type - Password
 Permissions - Admin
+
 Create an EC2 instance
 Select an OS image - Ubuntu
 Create a new key pair & download .pem file
+
 Instance type - t2.micro
 Connecting to the instance using ssh
 ssh -i instance.pem ubunutu@<IP_ADDRESS>
+
 Configuring Ubuntu on remote VM
 Updating the outdated packages and dependencies
 sudo apt update
