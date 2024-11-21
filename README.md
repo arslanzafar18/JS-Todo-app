@@ -48,7 +48,7 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+https://github.com/arslanzafar18/JS-Todo-app.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
